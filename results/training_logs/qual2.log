@@ -1,0 +1,29 @@
+Using the latest cached version of the dataset since ericyu/LEVIRCD_Cropped_256 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Traceback (most recent call last):
+  File "/root/gf/code/make_qualitative.py", line 189, in <module>
+    main()
+  File "/root/gf/code/make_qualitative.py", line 151, in main
+    ds = LevirCD("test", augment=False)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/gf/code/data.py", line 21, in __init__
+    ds = load_dataset("ericyu/LEVIRCD_Cropped_256", verification_mode="no_checks")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/datasets/load.py", line 1698, in load_dataset
+    builder_instance = load_dataset_builder(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/datasets/load.py", line 1363, in load_dataset_builder
+    builder_instance: DatasetBuilder = builder_cls(
+                                       ^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/datasets/packaged_modules/cache/cache.py", line 125, in __init__
+    config_name, version, hash = _find_hash_in_cache(
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/datasets/packaged_modules/cache/cache.py", line 52, in _find_hash_in_cache
+    or json.loads(Path(cached_directory_path, "dataset_info.json").read_text(encoding="utf-8"))["config_name"]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/workspace/.hf_home/datasets/ericyu___levircd_cropped_256/default/0.0.0/70f91f6cc678c6c64516b37a48ec1374e2d52a5b.incomplete/dataset_info.json'

@@ -1,0 +1,36 @@
+{
+  "args": {
+    "model": "fcsiam",
+    "backbone": "resnet18",
+    "pretrained": 1,
+    "epochs": 100,
+    "batch": 24,
+    "lr": 0.0008,
+    "pos_weight": 2.0,
+    "workers": 12,
+    "fusion": "dual",
+    "no_cbam": false,
+    "no_aspp": false,
+    "no_boundary": false,
+    "out": "results",
+    "tag": "clcd_fcsiam",
+    "dataset": "clcd",
+    "crop": 256
+  },
+  "params_M": 0.488001,
+  "best_val": {
+    "epoch": 1,
+    "val": {
+      "precision": 0.45079559461492885,
+      "recall": 0.513636047084261,
+      "f1": 0.48016854074380644,
+      "iou": 0.3159353877527811
+    }
+  },
+  "test": {
+    "precision": 0.49258243312144917,
+    "recall": 0.5171537256121629,
+    "f1": 0.5045691154153914,
+    "iou": 0.3374071789508715
+  }
+}

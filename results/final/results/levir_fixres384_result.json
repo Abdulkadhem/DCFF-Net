@@ -1,0 +1,41 @@
+{
+  "args": {
+    "model": "dcff",
+    "backbone": "resnet18",
+    "pretrained": 1,
+    "epochs": 15,
+    "batch": 8,
+    "lr": 5e-05,
+    "pos_weight": 2.0,
+    "workers": 12,
+    "fusion": "dual",
+    "no_cbam": true,
+    "no_aspp": false,
+    "no_boundary": true,
+    "out": "results",
+    "tag": "levir_fixres384",
+    "dataset": "levir",
+    "crop": 384,
+    "strong": false,
+    "lovasz": false,
+    "rs_pretrain": false,
+    "resume": "results/dcff_final_best.pt",
+    "seed": 42
+  },
+  "params_M": 13.593668,
+  "best_val": {
+    "epoch": 9,
+    "val": {
+      "precision": 0.8950225146194309,
+      "recall": 0.9137838763860789,
+      "f1": 0.9043058963927724,
+      "iou": 0.8253269724900368
+    }
+  },
+  "test": {
+    "precision": 0.8939686274038882,
+    "recall": 0.9096328546919242,
+    "f1": 0.9017327188649482,
+    "iou": 0.8210503356190948
+  }
+}

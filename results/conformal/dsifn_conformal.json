@@ -1,0 +1,38 @@
+{
+  "dataset": "dsifn",
+  "ckpt": "results/dsifn_dcff_best.pt",
+  "calib_val": [
+    {
+      "alpha": 0.05,
+      "lam": 0.96,
+      "test_fdp": 0.35518507263558813,
+      "power": 0.42486743944777966
+    },
+    {
+      "alpha": 0.1,
+      "lam": 0.76,
+      "test_fdp": 0.4271138653419749,
+      "power": 0.543481389778416
+    },
+    {
+      "alpha": 0.2,
+      "lam": 0.16,
+      "test_fdp": 0.4868033317728915,
+      "power": 0.6376943382686833
+    }
+  ],
+  "calib_testsplit": [
+    {
+      "alpha": 0.05,
+      "lam": null
+    },
+    {
+      "alpha": 0.1,
+      "lam": null
+    },
+    {
+      "alpha": 0.2,
+      "lam": null
+    }
+  ]
+}

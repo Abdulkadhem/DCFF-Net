@@ -1,0 +1,34 @@
+{
+  "args": {
+    "model": "dcff",
+    "backbone": "resnet18",
+    "pretrained": 1,
+    "epochs": 60,
+    "batch": 16,
+    "lr": 0.0006,
+    "pos_weight": 2.0,
+    "workers": 4,
+    "fusion": "dual",
+    "no_cbam": true,
+    "no_aspp": false,
+    "no_boundary": false,
+    "out": "results",
+    "tag": "abl_nocbam"
+  },
+  "params_M": 13.593668,
+  "best_val": {
+    "epoch": 59,
+    "val": {
+      "precision": 0.8919730985484373,
+      "recall": 0.9115911553872,
+      "f1": 0.9016754299215005,
+      "iou": 0.8209553490799412
+    }
+  },
+  "test": {
+    "precision": 0.8902392048583643,
+    "recall": 0.901468159552953,
+    "f1": 0.8958184947588481,
+    "iou": 0.8112964140517961
+  }
+}

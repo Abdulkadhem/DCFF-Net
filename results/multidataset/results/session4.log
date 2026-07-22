@@ -1,0 +1,24 @@
+== env: HF_HOME=/dev/shm/hf | disk:   16G free on / | shm:   23G ==
+== 0) prefetch ImageNet ResNet-18 weights (DNS can be flaky) ==
+== 0.5) pre-cache datasets sequentially (avoid concurrent-download races) ==
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+cached egy
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+cached dsifn
+== 1) GPUs=1 | jobs=4 ==
+  [GPU0] egy_dcff (egy/dcff) start 01:29:09
+  [GPU0] dsifn_dcff (dsifn/dcff) start 01:29:09
+  [GPU0] egy_fcsiam (egy/fcsiam) start 01:29:09
+  [GPU0] dsifn_fcsiam (dsifn/fcsiam) start 01:29:09
+  [GPU0] dsifn_dcff DONE 02:34:09
+  [GPU0] egy_dcff DONE 02:41:27
+  [GPU0] dsifn_fcsiam DONE 02:54:45
+  [GPU0] egy_fcsiam DONE 02:58:06
+== ALL_TRAINING_DONE ==
+== 2) summary (in-domain test results) ==
+run                              F1      IoU        P        R
+dsifn_dcff_result.json       0.6100   0.4388   0.5058   0.7683
+dsifn_fcsiam_result.json     0.4901   0.3246   0.3987   0.6359
+egy_dcff_result.json         0.8047   0.6732   0.7454   0.8742
+egy_fcsiam_result.json       0.6810   0.5163   0.6519   0.7127
+== DONE. Download: results/*_best.pt (weights), results/*_result.json, logs/*.log ==

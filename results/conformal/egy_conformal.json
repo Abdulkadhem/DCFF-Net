@@ -1,0 +1,40 @@
+{
+  "dataset": "egy",
+  "ckpt": "results/egy_dcff_best.pt",
+  "calib_val": [
+    {
+      "alpha": 0.05,
+      "lam": null
+    },
+    {
+      "alpha": 0.1,
+      "lam": 0.88,
+      "test_fdp": 0.10153978214102967,
+      "power": 0.686279881331122
+    },
+    {
+      "alpha": 0.2,
+      "lam": 0.06,
+      "test_fdp": 0.17840124694191228,
+      "power": 0.8792566902735175
+    }
+  ],
+  "calib_testsplit": [
+    {
+      "alpha": 0.05,
+      "lam": null
+    },
+    {
+      "alpha": 0.1,
+      "lam": 0.94,
+      "test_fdp": 0.08123446062676773,
+      "power": 0.6351941651321181
+    },
+    {
+      "alpha": 0.2,
+      "lam": 0.06,
+      "test_fdp": 0.16613055257464202,
+      "power": 0.8860283975706637
+    }
+  ]
+}

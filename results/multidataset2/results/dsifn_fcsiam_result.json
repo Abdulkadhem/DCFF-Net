@@ -1,0 +1,35 @@
+{
+  "args": {
+    "model": "fcsiam",
+    "backbone": "resnet18",
+    "pretrained": 1,
+    "epochs": 100,
+    "batch": 32,
+    "lr": 0.0008,
+    "pos_weight": 2.0,
+    "workers": 16,
+    "fusion": "dual",
+    "no_cbam": false,
+    "no_aspp": false,
+    "no_boundary": false,
+    "out": "results",
+    "tag": "dsifn_fcsiam",
+    "dataset": "dsifn"
+  },
+  "params_M": 0.488001,
+  "best_val": {
+    "epoch": 33,
+    "val": {
+      "precision": 0.6555070849005531,
+      "recall": 0.7462292070171316,
+      "f1": 0.697932320980686,
+      "iou": 0.5360184673896092
+    }
+  },
+  "test": {
+    "precision": 0.39874380779029794,
+    "recall": 0.6358802524580641,
+    "f1": 0.4901361231785983,
+    "iou": 0.3246227234987318
+  }
+}

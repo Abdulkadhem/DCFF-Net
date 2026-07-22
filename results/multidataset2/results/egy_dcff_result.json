@@ -1,0 +1,35 @@
+{
+  "args": {
+    "model": "dcff",
+    "backbone": "resnet18",
+    "pretrained": 1,
+    "epochs": 100,
+    "batch": 32,
+    "lr": 0.0008,
+    "pos_weight": 2.0,
+    "workers": 16,
+    "fusion": "dual",
+    "no_cbam": true,
+    "no_aspp": false,
+    "no_boundary": true,
+    "out": "results",
+    "tag": "egy_dcff",
+    "dataset": "egy"
+  },
+  "params_M": 13.593668,
+  "best_val": {
+    "epoch": 84,
+    "val": {
+      "precision": 0.7573564586123117,
+      "recall": 0.8720991299981341,
+      "f1": 0.810687830789139,
+      "iou": 0.6816442752483597
+    }
+  },
+  "test": {
+    "precision": 0.745378232936293,
+    "recall": 0.8742073041134641,
+    "f1": 0.8046689480133842,
+    "iou": 0.6731766463418948
+  }
+}

@@ -1,0 +1,45 @@
+# --- datasets & caches (all five benchmarks are downloaded on demand) ---
+data/
+*.parquet
+**/hf_cache/
+
+# --- model checkpoints (too large for git; published via GitHub Releases) ---
+*.pt
+*.pth
+*.ckpt
+
+# --- large intermediates ---
+results/conformal/*.npz
+weights/chunks/
+weights/wc/
+*.tgz
+*.zip
+
+# --- python ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- os / editors ---
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Kept in the repository (small, needed to reproduce every number/figure):
+#   code/**            paper/**            requirements.txt
+#   results/**/*.json  results/**/*.log    paper/figures/*.png
+
+# transient rescue artefacts
+split_info.txt
+wc_info.txt
+
+# generated artefacts (rebuild with paper/make_pdf.py)
+paper/_eq_cache/
+*.pdf
+
+# Arabic-language originals, kept locally for the author (not published)
+_originals_ar/
+README.ar.md
+paper/latex_src/

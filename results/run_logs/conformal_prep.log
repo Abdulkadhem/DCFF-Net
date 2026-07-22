@@ -1,0 +1,16 @@
+[LOG] loaded ../weights/dcff_final_best.pt | grid=49 thresholds | device=cpu
+  val 256/1024
+  val 512/1024
+  val 768/1024
+  val 1024/1024
+[SAVED] ../results/conformal/counts_val.npz | N=1024
+  test 256/2048
+  test 512/2048
+  test 768/2048
+  test 1024/2048
+  test 1280/2048
+  test 1536/2048
+  test 1792/2048
+  test 2048/2048
+[SAVED] ../results/conformal/counts_test.npz | N=2048
+[ALL_DONE]

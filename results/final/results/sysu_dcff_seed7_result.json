@@ -1,0 +1,38 @@
+{
+  "args": {
+    "model": "dcff",
+    "backbone": "resnet18",
+    "pretrained": 1,
+    "epochs": 80,
+    "batch": 24,
+    "lr": 0.0008,
+    "pos_weight": 2.0,
+    "workers": 12,
+    "fusion": "dual",
+    "no_cbam": true,
+    "no_aspp": false,
+    "no_boundary": true,
+    "out": "results",
+    "tag": "sysu_dcff_seed7",
+    "dataset": "sysu",
+    "crop": 256,
+    "strong": false,
+    "seed": 7
+  },
+  "params_M": 13.593668,
+  "best_val": {
+    "epoch": 32,
+    "val": {
+      "precision": 0.8054858652961182,
+      "recall": 0.8116471163527677,
+      "f1": 0.8085547531899615,
+      "iou": 0.6786335806820174
+    }
+  },
+  "test": {
+    "precision": 0.8400291131675555,
+    "recall": 0.8049667881827117,
+    "f1": 0.8221242815746262,
+    "iou": 0.6979720097484238
+  }
+}

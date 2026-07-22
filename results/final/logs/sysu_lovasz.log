@@ -1,0 +1,14 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[LOG] dcff params=13.59M device=cuda train=12000 val=4000 test=4000
+/root/gf/code/train.py:168: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:838.)
+  tot += float(loss)
+[E1/80] loss=2.960 val_F1=0.7596 val_IoU=0.6124 (135s)
+[E2/80] loss=2.386 val_F1=0.7923 val_IoU=0.6560 (134s)
+[E3/80] loss=2.105 val_F1=0.7890 val_IoU=0.6515 (97s)
+[E4/80] loss=1.938 val_F1=0.8003 val_IoU=0.6671 (68s)
+[E5/80] loss=1.792 val_F1=0.8020 val_IoU=0.6694 (69s)
+[E6/80] loss=1.673 val_F1=0.7888 val_IoU=0.6513 (67s)
+[E7/80] loss=1.566 val_F1=0.7885 val_IoU=0.6509 (167s)
+[E8/80] loss=1.479 val_F1=0.8008 val_IoU=0.6677 (88s)
+[E9/80] loss=1.427 val_F1=0.7940 val_IoU=0.6584 (68s)

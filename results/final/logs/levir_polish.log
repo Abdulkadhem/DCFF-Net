@@ -1,0 +1,34 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[RESUME] polishing from results/dcff_final_best.pt
+[LOG] dcff params=13.59M device=cuda train=7120 val=1024 test=2048
+/root/gf/code/train.py:168: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:838.)
+  tot += float(loss)
+[E1/25] loss=0.989 val_F1=0.9014 val_IoU=0.8205 (99s)
+[E2/25] loss=0.941 val_F1=0.9032 val_IoU=0.8235 (97s)
+[E3/25] loss=0.930 val_F1=0.9017 val_IoU=0.8211 (78s)
+[E4/25] loss=0.915 val_F1=0.9028 val_IoU=0.8229 (52s)
+[E5/25] loss=0.920 val_F1=0.9037 val_IoU=0.8244 (52s)
+[E6/25] loss=0.914 val_F1=0.9033 val_IoU=0.8237 (52s)
+[E7/25] loss=0.894 val_F1=0.9040 val_IoU=0.8248 (52s)
+[E8/25] loss=0.890 val_F1=0.9023 val_IoU=0.8219 (52s)
+[E9/25] loss=0.881 val_F1=0.9033 val_IoU=0.8236 (52s)
+[E10/25] loss=0.862 val_F1=0.9026 val_IoU=0.8225 (52s)
+[E11/25] loss=0.869 val_F1=0.9022 val_IoU=0.8219 (52s)
+[E12/25] loss=0.872 val_F1=0.9006 val_IoU=0.8191 (52s)
+[E13/25] loss=0.861 val_F1=0.9019 val_IoU=0.8213 (52s)
+[E14/25] loss=0.854 val_F1=0.9027 val_IoU=0.8227 (53s)
+[E15/25] loss=0.863 val_F1=0.9010 val_IoU=0.8199 (52s)
+[E16/25] loss=0.856 val_F1=0.9025 val_IoU=0.8223 (52s)
+[E17/25] loss=0.848 val_F1=0.9021 val_IoU=0.8217 (52s)
+[E18/25] loss=0.848 val_F1=0.9027 val_IoU=0.8226 (52s)
+[E19/25] loss=0.855 val_F1=0.9012 val_IoU=0.8202 (78s)
+[E20/25] loss=0.854 val_F1=0.9021 val_IoU=0.8217 (101s)
+[E21/25] loss=0.864 val_F1=0.9024 val_IoU=0.8221 (100s)
+[E22/25] loss=0.842 val_F1=0.9021 val_IoU=0.8217 (102s)
+[E23/25] loss=0.855 val_F1=0.9029 val_IoU=0.8230 (101s)
+[E24/25] loss=0.839 val_F1=0.9018 val_IoU=0.8211 (99s)
+[E25/25] loss=0.850 val_F1=0.9028 val_IoU=0.8228 (102s)
+
+=== TEST (levir_polish) === F1=0.9000 IoU=0.8182 P=0.9010 R=0.8990  (best val@ep7)
+[ALL_DONE]

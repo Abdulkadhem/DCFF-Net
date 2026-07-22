@@ -1,0 +1,36 @@
+{
+  "args": {
+    "model": "fcsiam",
+    "backbone": "resnet18",
+    "pretrained": 1,
+    "epochs": 80,
+    "batch": 24,
+    "lr": 0.0008,
+    "pos_weight": 2.0,
+    "workers": 12,
+    "fusion": "dual",
+    "no_cbam": false,
+    "no_aspp": false,
+    "no_boundary": false,
+    "out": "results",
+    "tag": "sysu_fcsiam",
+    "dataset": "sysu",
+    "crop": 256
+  },
+  "params_M": 0.488001,
+  "best_val": {
+    "epoch": 18,
+    "val": {
+      "precision": 0.7469580030229725,
+      "recall": 0.7962127260882857,
+      "f1": 0.7707993111267786,
+      "iou": 0.627073608823031
+    }
+  },
+  "test": {
+    "precision": 0.7767353685805454,
+    "recall": 0.8087776019239572,
+    "f1": 0.7924327079254179,
+    "iou": 0.6562224018106716
+  }
+}

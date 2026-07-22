@@ -1,0 +1,11 @@
+[LOG] parquet: F:/2026projects/ConformalCD/data/hf_cache/hub/datasets--ericyu--LEVIRCD_Cropped_256/snapshots\70f91f6cc678c6c64516b37a48ec1374e2d52a5b\data\test-00000-of-00001-31d7c3e3444e5b5d.parquet
+[LOG] loaded ../weights/dcff_final_best.pt | N=2048 | TTA=False | device=cpu
+  ..256/2048
+  ..512/2048
+  ..768/2048
+  ..1024/2048
+  ..1280/2048
+  ..1536/2048
+  ..1792/2048
+  ..2048/2048
+[RESULT] P=0.8948 R=0.9057 F1=0.9002 IoU=0.8185

@@ -1,0 +1,25 @@
+== env: HF_HOME=/dev/shm/hf | shm free:   14G ==
+== 0) prefetch ImageNet weights ==
+== 0.5) pre-cache datasets ==
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Generating train split:   0%|          | 0/3654 [00:00<?, ? examples/s]Generating train split:  27%|██▋       | 1000/3654 [00:00<00:01, 2341.53 examples/s]Generating train split:  77%|███████▋  | 2827/3654 [00:00<00:00, 3317.60 examples/s]Generating train split: 100%|██████████| 3654/3654 [00:00<00:00, 3728.99 examples/s]
+Generating test split:   0%|          | 0/1218 [00:00<?, ? examples/s]Generating test split:  82%|████████▏ | 1000/1218 [00:00<00:00, 3537.99 examples/s]Generating test split: 100%|██████████| 1218/1218 [00:00<00:00, 3875.83 examples/s]
+Generating val split:   0%|          | 0/1219 [00:00<?, ? examples/s]Generating val split:  82%|████████▏ | 1000/1219 [00:00<00:00, 3181.16 examples/s]Generating val split: 100%|██████████| 1219/1219 [00:00<00:00, 3524.43 examples/s]
+cached egy
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+cached dsifn
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+cached sysu
+== 1) training (cap=3) ==
+  [start] dsifn512_dcff_v2 (dsifn/dcff crop=512) 09:27:51
+  [start] egy_dcff_v2 (egy/dcff crop=256) 09:27:51
+  [start] sysu_dcff_seed7 (sysu/dcff crop=256) 09:27:51
+  [done ] sysu_dcff_seed7 12:23:16
+  [done ] egy_dcff_v2 12:48:39
+  [done ] dsifn512_dcff_v2 12:55:45
+== ALL_TRAINING_DONE ==
+== 2) summary (new runs) ==
+dsifn512_dcff_v2_result.json F1=0.6761 IoU=0.5107 P=0.5868 R=0.7975
+egy_dcff_v2_result.json      F1=0.8139 IoU=0.6863 P=0.7684 R=0.8652
+sysu_dcff_seed7_result.json  F1=0.8221 IoU=0.6980 P=0.8400 R=0.8050
+== DONE ==

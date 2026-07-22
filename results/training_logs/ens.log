@@ -1,0 +1,4 @@
+[LOG] ensemble of 3 models + TTA, device=cuda
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[ENSEMBLE+TTA] F1=0.9053 IoU=0.8269 P=0.9067 R=0.9038
+[ALL_DONE]

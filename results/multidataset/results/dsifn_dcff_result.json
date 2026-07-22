@@ -1,0 +1,35 @@
+{
+  "args": {
+    "model": "dcff",
+    "backbone": "resnet18",
+    "pretrained": 1,
+    "epochs": 100,
+    "batch": 32,
+    "lr": 0.0008,
+    "pos_weight": 2.0,
+    "workers": 16,
+    "fusion": "dual",
+    "no_cbam": true,
+    "no_aspp": false,
+    "no_boundary": true,
+    "out": "results",
+    "tag": "dsifn_dcff",
+    "dataset": "dsifn"
+  },
+  "params_M": 13.593668,
+  "best_val": {
+    "epoch": 89,
+    "val": {
+      "precision": 0.9039072421519252,
+      "recall": 0.981713263020032,
+      "f1": 0.9412050041414656,
+      "iou": 0.8889397936010663
+    }
+  },
+  "test": {
+    "precision": 0.5057685444779069,
+    "recall": 0.7683147123838467,
+    "f1": 0.6099906130710718,
+    "iou": 0.43883920460972553
+  }
+}

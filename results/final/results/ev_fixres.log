@@ -1,0 +1,7 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[LOG] levir test N=2048 | results/levir_fixres384_best.pt | device=cuda
+[plain (no TTA)      ] P=0.8360 R=0.8755 F1=0.8553 IoU=0.7472
+[TTA 6 views         ] P=0.8541 R=0.8785 F1=0.8661 IoU=0.7639
+[MS-TTA .75/1/1.25   ] P=0.8574 R=0.8937 F1=0.8752 IoU=0.7780
+[MS-TTA 1/1.25/1.5   ] P=0.8900 R=0.9141 F1=0.9019 IoU=0.8214
+[ALL_DONE]

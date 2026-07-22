@@ -1,0 +1,16 @@
+=== base ===
+[LOG] parquet: C:/Users/ALFA/.cache/huggingface/hub/datasets--ericyu--EGY_BCD/snapshots/ce58dd895f01c0f341d357c58c83fb6c3f04f2c0/data/test-00000-of-00001-ba5cc15e79d739ca.parquet
+[LOG] loaded ../weights/dcff_final_best.pt | N=1218 | TTA=False | device=cpu
+  ..256/1218
+  ..512/1218
+  ..768/1218
+  ..1024/1218
+[RESULT] P=0.5350 R=0.1982 F1=0.2893 IoU=0.1691
+=== TTA ===
+[LOG] parquet: C:/Users/ALFA/.cache/huggingface/hub/datasets--ericyu--EGY_BCD/snapshots/ce58dd895f01c0f341d357c58c83fb6c3f04f2c0/data/test-00000-of-00001-ba5cc15e79d739ca.parquet
+[LOG] loaded ../weights/dcff_final_best.pt | N=1218 | TTA=True | device=cpu
+  ..256/1218
+  ..512/1218
+  ..768/1218
+  ..1024/1218
+[RESULT] P=0.5360 R=0.1882 F1=0.2785 IoU=0.1618

@@ -1,0 +1,6 @@
+[LOG] test split loaded: 2048 examples
+[LOG] pool 175 | err [3, 231, 318, 498, 588, 660] | heat [732, 810, 885, 948, 1026, 1089] | overlay [1251, 1497, 1566, 1644, 1710, 1929]
+[SAVED] ../paper/figures/qualitative.png (1328, 1708)
+[SAVED] ../paper/figures/qualitative_heatmap.png (1328, 1708)
+[SAVED] ../paper/figures/qualitative_overlay.png (1328, 1708)
+[ALL_DONE]

@@ -1,0 +1,34 @@
+{
+  "args": {
+    "model": "dcff",
+    "backbone": "resnet18",
+    "pretrained": 1,
+    "epochs": 60,
+    "batch": 16,
+    "lr": 0.0006,
+    "pos_weight": 2.0,
+    "workers": 4,
+    "fusion": "dual",
+    "no_cbam": false,
+    "no_aspp": false,
+    "no_boundary": false,
+    "out": "results",
+    "tag": "abl_dual"
+  },
+  "params_M": 13.598444,
+  "best_val": {
+    "epoch": 60,
+    "val": {
+      "precision": 0.8873205208480727,
+      "recall": 0.9062376165904662,
+      "f1": 0.8966793066047287,
+      "iou": 0.8127095892234317
+    }
+  },
+  "test": {
+    "precision": 0.887410103468455,
+    "recall": 0.8988930594126073,
+    "f1": 0.8931146727941758,
+    "iou": 0.8068719060104594
+  }
+}

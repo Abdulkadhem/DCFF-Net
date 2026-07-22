@@ -1,0 +1,42 @@
+== env: HF_HOME=/dev/shm/hf | / free:   16G | shm:   31G ==
+== 0) prefetch ImageNet ResNet-18 weights ==
+== 0.5) pre-cache datasets sequentially ==
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+cached clcd
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Generating train split:   0%|          | 0/12000 [00:00<?, ? examples/s]Generating train split:   3%|▎         | 400/12000 [00:00<00:04, 2781.23 examples/s]Generating train split:   8%|▊         | 900/12000 [00:00<00:03, 3517.87 examples/s]Generating train split:  12%|█▎        | 1500/12000 [00:00<00:02, 3816.79 examples/s]Generating train split:  18%|█▊        | 2115/12000 [00:00<00:02, 3418.16 examples/s]Generating train split:  23%|██▎       | 2715/12000 [00:00<00:02, 3680.29 examples/s]Generating train split:  28%|██▊       | 3315/12000 [00:00<00:02, 3843.01 examples/s]Generating train split:  31%|███       | 3730/12000 [00:01<00:02, 3337.69 examples/s]Generating train split:  34%|███▍      | 4130/12000 [00:01<00:02, 3426.30 examples/s]Generating train split:  38%|███▊      | 4530/12000 [00:01<00:02, 3486.35 examples/s]Generating train split:  43%|████▎     | 5130/12000 [00:01<00:01, 3781.20 examples/s]Generating train split:  46%|████▌     | 5544/12000 [00:01<00:01, 3297.37 examples/s]Generating train split:  50%|████▉     | 5944/12000 [00:01<00:01, 3417.35 examples/s]Generating train split:  53%|█████▎    | 6344/12000 [00:01<00:01, 3504.76 examples/s]Generating train split:  58%|█████▊    | 6958/12000 [00:02<00:01, 3256.90 examples/s]Generating train split:  61%|██████▏   | 7358/12000 [00:02<00:01, 3337.89 examples/s]Generating train split:  65%|██████▌   | 7858/12000 [00:02<00:01, 3617.92 examples/s]Generating train split:  70%|███████   | 8458/12000 [00:02<00:00, 3914.76 examples/s]Generating train split:  75%|███████▍  | 8972/12000 [00:02<00:00, 3510.11 examples/s]Generating train split:  80%|███████▉  | 9572/12000 [00:02<00:00, 3839.75 examples/s]Generating train split:  85%|████████▍ | 10172/12000 [00:02<00:00, 3982.12 examples/s]Generating train split:  89%|████████▉ | 10686/12000 [00:03<00:00, 3567.94 examples/s]Generating train split:  92%|█████████▏| 11086/12000 [00:03<00:00, 3607.34 examples/s]Generating train split:  97%|█████████▋| 11586/12000 [00:03<00:00, 3723.05 examples/s]Generating train split: 100%|██████████| 12000/12000 [00:03<00:00, 3591.58 examples/s]Generating train split: 100%|██████████| 12000/12000 [00:03<00:00, 3572.04 examples/s]
+Generating test split:   0%|          | 0/4000 [00:00<?, ? examples/s]Generating test split:  10%|█         | 400/4000 [00:00<00:01, 2896.81 examples/s]Generating test split:  20%|██        | 800/4000 [00:00<00:00, 3321.00 examples/s]Generating test split:  36%|███▌      | 1434/4000 [00:00<00:00, 3207.04 examples/s]Generating test split:  48%|████▊     | 1934/4000 [00:00<00:00, 3499.35 examples/s]Generating test split:  61%|██████    | 2434/4000 [00:00<00:00, 3548.19 examples/s]Generating test split:  74%|███████▍  | 2967/4000 [00:00<00:00, 3244.46 examples/s]Generating test split:  87%|████████▋ | 3467/4000 [00:01<00:00, 3377.80 examples/s]Generating test split: 100%|██████████| 4000/4000 [00:01<00:00, 3509.58 examples/s]Generating test split: 100%|██████████| 4000/4000 [00:01<00:00, 3406.40 examples/s]
+Generating val split:   0%|          | 0/4000 [00:00<?, ? examples/s]Generating val split:  10%|█         | 400/4000 [00:00<00:01, 3336.48 examples/s]Generating val split:  22%|██▎       | 900/4000 [00:00<00:00, 3668.54 examples/s]Generating val split:  36%|███▌      | 1434/4000 [00:00<00:00, 3303.00 examples/s]Generating val split:  48%|████▊     | 1934/4000 [00:00<00:00, 3518.07 examples/s]Generating val split:  61%|██████    | 2434/4000 [00:00<00:00, 3596.89 examples/s]Generating val split:  77%|███████▋  | 3067/4000 [00:00<00:00, 3488.79 examples/s]Generating val split:  92%|█████████▏| 3667/4000 [00:01<00:00, 3788.49 examples/s]Generating val split: 100%|██████████| 4000/4000 [00:01<00:00, 3640.64 examples/s]
+cached sysu
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Generating test split:   0%|          | 0/48 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 48/48 [00:00<00:00, 759.75 examples/s]
+Generating val split:   0%|          | 0/340 [00:00<?, ? examples/s]Generating val split:  29%|██▉       | 100/340 [00:00<00:00, 466.32 examples/s]Generating val split:  59%|█████▉    | 200/340 [00:00<00:00, 664.40 examples/s]Generating val split: 100%|██████████| 340/340 [00:00<00:00, 857.62 examples/s]
+Generating train split:   0%|          | 0/3600 [00:00<?, ? examples/s]Generating train split:   3%|▎         | 100/3600 [00:00<00:07, 457.92 examples/s]Generating train split:   6%|▌         | 200/3600 [00:00<00:05, 642.97 examples/s]Generating train split:  11%|█         | 400/3600 [00:00<00:03, 879.68 examples/s]Generating train split:  17%|█▋        | 615/3600 [00:00<00:03, 780.86 examples/s]Generating train split:  23%|██▎       | 815/3600 [00:01<00:03, 861.10 examples/s]Generating train split:  31%|███▏      | 1130/3600 [00:01<00:02, 857.59 examples/s]Generating train split:  37%|███▋      | 1330/3600 [00:01<00:02, 956.11 examples/s]Generating train split:  46%|████▌     | 1644/3600 [00:01<00:02, 839.46 examples/s]Generating train split:  51%|█████     | 1844/3600 [00:02<00:01, 913.32 examples/s]Generating train split:  60%|█████▉    | 2158/3600 [00:02<00:01, 831.32 examples/s]Generating train split:  66%|██████▌   | 2358/3600 [00:02<00:01, 881.36 examples/s]Generating train split:  68%|██████▊   | 2458/3600 [00:02<00:01, 860.71 examples/s]Generating train split:  74%|███████▍  | 2672/3600 [00:03<00:01, 793.83 examples/s]Generating train split:  80%|███████▉  | 2872/3600 [00:03<00:00, 854.08 examples/s]Generating train split:  88%|████████▊ | 3186/3600 [00:03<00:00, 847.13 examples/s]Generating train split:  94%|█████████▍| 3386/3600 [00:03<00:00, 889.07 examples/s]Generating train split: 100%|██████████| 3600/3600 [00:04<00:00, 985.12 examples/s]Generating train split: 100%|██████████| 3600/3600 [00:04<00:00, 871.79 examples/s]
+cached dsifn
+== 1) training (cap=4 concurrent) ==
+  [start] sysu_dcff (sysu/dcff crop=256) 03:55:26
+  [start] dsifn512_dcff (dsifn/dcff crop=512) 03:55:26
+  [start] clcd_fcsiam (clcd/fcsiam crop=256) 03:55:26
+  [start] clcd_dcff (clcd/dcff crop=256) 03:55:26
+  [done ] clcd_dcff 04:25:26
+  [start] sysu_fcsiam (sysu/fcsiam crop=256) 04:25:26
+  [done ] clcd_fcsiam 04:41:04
+  [start] dsifn512_fcsiam (dsifn/fcsiam crop=512) 04:41:04
+  [done ] dsifn512_dcff 06:16:37
+  [done ] sysu_dcff 06:53:32
+  [done ] dsifn512_fcsiam 07:40:41
+  [done ] sysu_fcsiam 07:52:54
+== ALL_TRAINING_DONE ==
+== 2) summary ==
+run                            F1      IoU        P        R
+clcd_dcff_result.json      0.7725   0.6294   0.7772   0.7680
+clcd_fcsiam_result.json    0.5046   0.3374   0.4926   0.5172
+dsifn512_dcff_result.json   0.6546   0.4865   0.5377   0.8364
+dsifn512_fcsiam_result.json   0.5731   0.4016   0.5600   0.5867
+dsifn_dcff_result.json     0.6100   0.4388   0.5058   0.7683
+dsifn_fcsiam_result.json   0.4901   0.3246   0.3987   0.6359
+egy_dcff_result.json       0.8047   0.6732   0.7454   0.8742
+egy_fcsiam_result.json     0.6810   0.5163   0.6519   0.7127
+sysu_dcff_result.json      0.8357   0.7178   0.8478   0.8240
+sysu_fcsiam_result.json    0.7924   0.6562   0.7767   0.8088
+== DONE: download results/*_best.pt + *_result.json + logs/ ==

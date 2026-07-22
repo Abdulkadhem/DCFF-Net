@@ -35,6 +35,21 @@ The second point is the one most likely to be useful to other people's work. It 
 post-hoc, training-free and model-agnostic: about forty lines of numpy applied to
 whatever probability maps your model already produces.
 
+![The problem](paper/figures/fig_problem.png)
+
+*The task, and the two things an accurate detector still fails to tell its user.*
+
+---
+
+## What the model actually does
+
+![Feature flow](paper/figures/fig_dualcue.png)
+
+*One LEVIR-CD tile pushed through the trained model. Every panel is the model's
+own response: the difference cue reacts to change magnitude and lights up the
+replaced buildings, the concatenation cue holds the surrounding context, and the
+fused feature sharpens the changed footprints the decoder then isolates.*
+
 ---
 
 ## Results
@@ -82,7 +97,7 @@ none of the compared methods offers.
 ## Install
 
 ```bash
-git clone https://github.com/<user>/DCFF-Net.git
+git clone https://github.com/Abdulkadhem/DCFF-Net.git
 cd DCFF-Net
 pip install -r requirements.txt
 ```

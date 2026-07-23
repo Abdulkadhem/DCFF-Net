@@ -19,10 +19,12 @@ Al-Mustaqbal University, Hillah, Babil, Iraq — <a.abdulkadhem@uomus.edu.iq>
 
 Two things, and they are independent. You can take either without the other.
 
-**1. A change detector that is small and accurate.** 13.6 M parameters, pure CNN,
-no attention and no transformer. It beats a reproduced FC-Siam-Diff baseline on
+**1. An accurate convolutional change detector.** 13.6 M parameters, no attention,
+no transformer, no state-space scan. It beats a reproduced FC-Siam-Diff baseline on
 five public benchmarks and reaches parity with far heavier transformer and
-state-space models on the protocol-matched ones.
+state-space models on the protocol-matched ones. It is *not* the smallest detector
+in the literature — TinyCD reaches comparable accuracy at a fiftieth of the size —
+so the efficiency claim here is against the transformer family only.
 
 **2. A reliability layer that works on any change detector, including yours.**
 Given a model that outputs a probability map, it calibrates a single threshold so
@@ -89,8 +91,8 @@ separating those four methods. Our CLCD copy is a 256-crop re-split and is **not
 comparable with published CLCD numbers. On EGY-BCD and DSIFN-CD we remain below
 published results and make no competitiveness claim.
 
-The claim is parity at a fraction of the parameter cost, plus a guarantee that
-none of the compared methods offers.
+The claim is parity with the transformer and state-space family at a parameter
+count we report and most of them do not, plus a guarantee none of them offers.
 
 ---
 

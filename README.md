@@ -340,26 +340,13 @@ runs, which do not share a loss basin.
 ## Citation
 
 ```bibtex
-@article{abdulkadhem2026dcffnet,
-  title   = {{DCFF-Net}: Dual-Cue Feature Fusion Model with Conformal Reliability
-             for Efficient Remote Sensing Change Detection},
-  author  = {Abdulkadhem, Abdulkadhem A.},
-  journal = {Pattern Analysis and Applications},
-  year    = {2026},
-  note    = {Under review}
-}
+
 ```
 
 If you use the conformal layer, please also cite the risk-control result it rests on:
 
 ```bibtex
-@inproceedings{angelopoulos2024conformal,
-  title     = {Conformal Risk Control},
-  author    = {Angelopoulos, Anastasios N. and Bates, Stephen and Fisch, Adam
-               and Lei, Lihua and Schuster, Tal},
-  booktitle = {International Conference on Learning Representations},
-  year      = {2024}
-}
+
 ```
 
 ---

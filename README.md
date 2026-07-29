@@ -2,7 +2,7 @@
 
 **Dual-Cue Feature Fusion with Conformal Reliability for Efficient Remote Sensing Change Detection**
 
-Official implementation. Manuscript submitted to *Pattern Analysis and Applications* (Springer).
+Official implementation. Manuscript submitted to (Springer Journal).
 
 Abdulkadhem A. Abdulkadhem — Department of Artificial Intelligence, College of Sciences,
 Al-Mustaqbal University, Hillah, Babil, Iraq — <a.abdulkadhem@uomus.edu.iq>
